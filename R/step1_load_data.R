@@ -9,15 +9,15 @@
 # --------------------------------------------
 # Load Necessary Libraries and Set Working Directory
 # --------------------------------------------
-#library(tidyr)
-#library(ggplot2)
-#library(multcompView)
-#library(dplyr)
-#library(readxl)
-#library(tibble)
-#library(stringr)
-#library(readr)
-#library(rstatix)
+library(tidyr)
+library(ggplot2)
+library(multcompView)
+library(dplyr)
+library(readxl)
+library(tibble)
+library(stringr)
+library(readr)
+library(rstatix)
 
 # Update path as needed
 
@@ -27,7 +27,7 @@
 # Load the Data
 # --------------------------------------------
 
-mainanalysis <- function(excelIN){
+step1 <- function(excelIN){
     #data <- read_excel("Final values_NPell.xlsx")
     data <- read_excel(excelIN)
 
