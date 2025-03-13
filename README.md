@@ -1,0 +1,1 @@
+ESPIestimator is an R package to estimate ESPI by taking account of difference across traits, nutrients, Cohen's results, Hedge's results, and Euclidean Distance environmental conditions. The package also include visualisation along steps.
