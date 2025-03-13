@@ -25,7 +25,7 @@ library(rstatix)
 ##         Nutrient Pair.
 ##################################################
 
-step2 <- function(largest_diff_across_traits){# This is where we'll store our final results:
+step02 <- function(largest_diff_across_traits){# This is where we'll store our final results:
     largest_diff_cross_plate_nutr <- data.frame()
 
     # Loop over the table that tells us, for each trait,

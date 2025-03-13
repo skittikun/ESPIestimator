@@ -27,7 +27,7 @@ library(rstatix)
 # Load the Data
 # --------------------------------------------
 
-step1 <- function(excelIN){
+step01 <- function(excelIN){
     #data <- read_excel("Final values_NPell.xlsx")
     data <- read_excel(excelIN)
 
